@@ -1,5 +1,8 @@
 #include <iostream>
 #include "funciones.h"
+#include <fstream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -18,7 +21,7 @@ int main() {
 
         switch (op)
         {
-        case 1: // Abrir fichero con el contenido guardado del sistema de asistencia
+        case 1: // Abrir fichero con el contenido guardado del sistema de asistencia 
         
             break;
         case 2: // Guardar fichero del sistema de asistencia
