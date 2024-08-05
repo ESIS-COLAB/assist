@@ -1,5 +1,6 @@
 #include "funciones.h"
-// Función para visualizar la asistencia de una sesión de clases
+
+// Función para visualizar la asistencia de una sesión de clase
 void visualizarAsistencia(Clase& clase, int sesion) {
     for (int i = 0; i < clase.sesiones.size(); i++) {
         if (clase.sesiones[i].numero == sesion) {
@@ -12,6 +13,7 @@ void visualizarAsistencia(Clase& clase, int sesion) {
         }
     }
 }
+
 void calcularPorcentajeAsistencia(Clase& clase) {
     system("cls");
 
