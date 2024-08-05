@@ -63,7 +63,6 @@ void mostrarMenuAsistencia() {
 }
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
     bool salirMenu = false;
     int seleccion, sesion, opcion;
     string nombreAlumno;
