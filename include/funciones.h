@@ -47,5 +47,7 @@ void modificarAsistencia(Clase& clase, int sesion, string nombreAlumno);
 void guardarDatos(const vector<Aula>& aulas, const vector<Clase>& clases);
 void cargarDatos(vector<Aula>& aulas, vector<Clase>& clases);
 void calcularPorcentajeAsistencia(Clase& clase);
-
+void quicksort(vector<Alumno>& alumnos, int izquierda, int derecha);
+void swap(Alumno& a, Alumno& b);
+void buscarNombre(vector<Aula>& aulas);
 #endif  // FUNCIONES_H

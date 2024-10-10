@@ -1,1 +1,198 @@
-null
+{ 
+    "aulas": [
+        {
+            "alumnos": [
+                {
+                    "codigo": "2024-119008",
+                    "nombre": "GABRIEL_STEFANO_PEÑALOZA_GUITIERREZ"
+                },
+                {
+                    "codigo": "2024-119034",
+                    "nombre": "ARTURO_WILLY_MONTALICO_LLICA"
+                },
+                {
+                    "codigo": "2024-119003",
+                    "nombre": "CRISTHIAN_MIGUEL_MAMANI_QUISPE"
+                },
+                {
+                    "codigo": "2024-119057",
+                    "nombre": "ANGEL_DAVID_CATARI_PACCORICUNA"
+                },
+                {
+                    "codigo": "2024-119015",
+                    "nombre": "DIANA_BELINDA_MAMANI_RAMOS"
+                },
+                {
+                    "codigo": "2024-119005",
+                    "nombre": "FABRICIO_RENATO_MONROY_FUENTES"
+                },
+                {
+                    "codigo": "2024-119054",
+                    "nombre": "JAIRO_BRAYAN_ZEGARRA_GUTIERREZ"
+                },
+                {
+                    "codigo": "2023-119048",
+                    "nombre": "JESÚS_ANDRÉ_NINA_AROCUTIPA"
+                },
+                {
+                    "codigo": "2023-119043",
+                    "nombre": "JHOEL_RONALDO_OLAGUIVEL_BAUTISTA"
+                },
+                {
+                    "codigo": "2024-119027",
+                    "nombre": "JHOSEP_RODRIGO_AROCUTIPA_MAMANI"
+                },
+                {
+                    "codigo": "2024-119060",
+                    "nombre": "LUIS_DAVID_CRUZ_LLICA"
+                },
+                {
+                    "codigo": "2024-119018",
+                    "nombre": "PATRICIA_MIREYA_ADUVIRE_HUANCA"
+                },
+                {
+                    "codigo": "2024-119011",
+                    "nombre": "ARON_RENE_CACHICATARI_QUITO"
+                },
+                {
+                    "codigo": "2024-119040",
+                    "nombre": "RIVER_CALIZAYA_PARIGUANA"
+                },
+                {
+                    "codigo": "2024-119044",
+                    "nombre": "ALEXANDRA_VALERIA_CHOQUE_ONOFRE"
+                },
+                {
+                    "codigo": "2024-119031",
+                    "nombre": "LUIS_FERNANDO_CONDORI_CALJARO"
+                },
+                {
+                    "codigo": "2024-119062",
+                    "nombre": "ALISON_KHIARA_FLORES_HALLASI"
+                },
+                {
+                    "codigo": "2024-119002",
+                    "nombre": "PIERO_GABRIEL_GARCÍA_MENDOZA"
+                },
+                {
+                    "codigo": "2024-119021",
+                    "nombre": "JOHAN_ANIBAL_MAMANI_CATACORA"
+                },
+                {
+                    "codigo": "2024-119022",
+                    "nombre": "YHULIAN_NAYELI_MAQUERA_FLORES"
+                },
+                {
+                    "codigo": "2024-119056",
+                    "nombre": "LUIS_ALEXANDER_QUISPE_LÉVANO"
+                },
+                {
+                    "codigo": "2024-119036",
+                    "nombre": "ALEJANDRA_DEL_ROSARIO_RAMOS_MAMANI"
+                },
+                {
+                    "codigo": "2024-119024",
+                    "nombre": "ADRIAN_ELIEL_SOCUALAYA_FELICIANO"
+                },
+                {
+                    "codigo": "2024-119066",
+                    "nombre": "JHON_ANDRIOLY_ZENTENO_SOSA"
+                },
+                {
+                    "codigo": "2024-119012",
+                    "nombre": "ALEX_JEANPIER_CHATA_CHINO"
+                },
+                {
+                    "codigo": "2023-119008",
+                    "nombre": "PEDRO_GABRIEL_CARTA_APAZA"
+                },
+                {
+                    "codigo": "2023-119009",
+                    "nombre": "ALEXANDER_JOEL_CCOAPAZA_QUISPE"
+                },
+                {
+                    "codigo": "2024-119063",
+                    "nombre": "FRANK_EDSON_MAMANI_CRUZ"
+                },
+                {
+                    "codigo": "2024-119048",
+                    "nombre": "DANY_RONALDO_MURIEL_HERENCIA"
+                },
+                {
+                    "codigo": "2023-119046",
+                    "nombre": "MARICIELO_JUDITH_MUSAJA_CHAMBILLA"
+                },
+                {
+                    "codigo": "2024-119006",
+                    "nombre": "WILLIAM_ANDRE_NINA_ESTUCO"
+                },
+                {
+                    "codigo": "2024-119007",
+                    "nombre": "PEDRO_PABLO_NINAJA_MEDINA"
+                },
+                {
+                    "codigo": "2024-119049",
+                    "nombre": "HUGO_ANTONIO_ORDOÑO_QUISPE"
+                },
+                {
+                    "codigo": "2024-119051",
+                    "nombre": "ANETTE_MATIEL_QUISPE_HUILLCA"
+                },
+                {
+                    "codigo": "2021-119072",
+                    "nombre": "MARÍA_ROXANA_SACCATUMA_TINTAYA"
+                },
+                {
+                    "codigo": "2024-119052",
+                    "nombre": "WILLIAN_ARTURO_SALAZAR_QUISPE"
+                },
+                {
+                    "codigo": "2024-119028",
+                    "nombre": "DENNIS_FIDEL_ARUHUANCA_HUANCA"
+                },
+                {
+                    "codigo": "2024-119038",
+                    "nombre": "ALEXANDER_JESUS_TELLEZ_MESA"
+                },
+                {
+                    "codigo": "2024-119043",
+                    "nombre": "BRAYAN_CHINO_VALERIANO"
+                },
+                {
+                    "codigo": "2022-119088",
+                    "nombre": "DIEGO_ALEJANDRO_PEREZ_HUMIRE"
+                },
+                {
+                    "codigo": "2024-119029",
+                    "nombre": "FERNANDO_JESUS_BRICEÑO_PIHUAYCHO"
+                },
+                {
+                    "codigo": "2024-119055",
+                    "nombre": "FRANKLIN_CRISTOFIER_ANAHUA_CAHUACHIA"
+                },
+                {
+                    "codigo": "2024-119035",
+                    "nombre": "GIORGINI_DISALVATORE_PACCI_PEREZ"
+                },
+                {
+                    "codigo": "2024-119047",
+                    "nombre": "IVAN_MAQUERA_CABRERA"
+                },
+                {
+                    "codigo": "2024-119023",
+                    "nombre": "PEDRO_CZAR_PAOLO_SERRANO_YANAPA"
+                },
+                {
+                    "codigo": "2024-119009",
+                    "nombre": "RAUL_FARID_BANCHELLO_PINO_ROJAS"
+                },
+                {
+                    "codigo": "2024-119033",
+                    "nombre": "RONALD_ALEXANDER_HUAMAN_HUANCA"
+                }
+            ],
+            "nombre": "ESIS-1A"
+        }
+        
+    ]
+}

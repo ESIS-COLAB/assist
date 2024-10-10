@@ -234,6 +234,11 @@ int main() {
                 system("pause");
                 salirMenu = true;
                 break;
+            case 6:
+                system("cls");
+                buscarNombre(aulas);
+                system("pause");
+                break;
 
             default:
                 system("cls");
