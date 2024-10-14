@@ -45,48 +45,38 @@ void calcularPorcentajeAsistencia(Clase& clase) {
     }
 }
 
-
-
-
-
-
-
-
-
-void swap(Alumno& a, Alumno& b) {
-    Alumno temp = a;
-    a = b;
-    b = temp;
+// Función de búsqueda binaria para encontrar la posición correcta para insertar un alumno
+int busquedaBinaria(const vector<Alumno>& arr, Alumno valor, int inicio, int fin) {
+    while (inicio <= fin) {
+        int medio = (inicio + fin) / 2;
+        if (valor.nombre == arr[medio].nombre) {
+            return medio; // Se encontró el valor, devolvemos la posición
+        } else if (valor.nombre < arr[medio].nombre) {
+            fin = medio - 1;
+        } else {
+            inicio = medio + 1;
+        }
+    }
+    return inicio; // Devolver la posición donde se debe insertar
 }
 
-// Función para ordenar un vector de Alumnos utilizando quicksort
-void quicksort(vector<Alumno>& alumnos, int izquierda, int derecha) {
-    int i = izquierda;
-    int j = derecha;
-    Alumno pivote = alumnos[(izquierda + derecha) / 2];
-
-    while (i <= j) {
-        while (alumnos[i].nombre < pivote.nombre) {
-            i++;
-        }
-        while (alumnos[j].nombre > pivote.nombre) {
+// Función de ordenación por inserción con búsqueda binaria
+void ordenacionBinaria(vector<Alumno>& arr, int n) {
+    for (int i = 1; i < n; i++) {
+        Alumno temp = arr[i];
+        int pos = busquedaBinaria(arr, temp, 0, i - 1); // Buscar la posición correcta para insertar
+        
+        // Mover todos los elementos mayores hacia la derecha
+        int j = i - 1;
+        while (j >= pos) {
+            arr[j + 1] = arr[j];
             j--;
         }
-        if (i <= j) {
-            swap(alumnos[i], alumnos[j]);
-            i++;
-            j--;
-        }
-    }
-
-    if (izquierda < j) {
-        quicksort(alumnos, izquierda, j);
-    }
-    if (i < derecha) {
-        quicksort(alumnos, i, derecha);
+        arr[pos] = temp;
     }
 }
 
+// Función para buscar un nombre en la lista de alumnos
 void buscarNombre(vector<Aula>& aulas) {
     string seleccion;
     string indice;
@@ -96,7 +86,7 @@ void buscarNombre(vector<Aula>& aulas) {
     vector<Alumno> coincidencias;
     for (int i = 0; i < aulas.size(); i++) {
         // Ordenar la lista de alumnos en la aula actual
-        quicksort(aulas[i].alumnos, 0, aulas[i].alumnos.size() - 1);
+        ordenacionBinaria(aulas[i].alumnos, aulas[i].alumnos.size());
 
         // Buscar el índice en la lista de alumnos ordenada
         int izquierda = 0;

@@ -37,7 +37,8 @@ void mostrarMenuPrincipal() {
     cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "2. Guardar datos" << "|" << RESET << endl;
     cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "3. Registros" << "|" << RESET << endl;
     cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "4. Asistencia" << "|" << RESET << endl;
-    cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "5. Salir" << "|" << RESET << endl;
+    cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "5. Busqueda" << "|" << RESET << endl;
+    cout << BOLDYELLOW << "|" << setw(TERMINAL_WIDTH - 2) << left << "6. Salir" << "|" << RESET << endl;
     cout << BOLDCYAN << "+" << string(TERMINAL_WIDTH - 2, '-') << "+" << RESET << endl;
     cout << BOLDCYAN << "Elija una opcion: " << RESET;
 }
@@ -227,19 +228,21 @@ int main() {
                     }
                 } while (opcion != 5);
                 break;
-
-            case 5: // SALIR DEL PROGRAMA
-                system("cls");
-                imprimirMarco("Gracias por su visita");
-                system("pause");
-                salirMenu = true;
-                break;
-            case 6:
+            
+            case 5:
                 system("cls");
                 buscarNombre(aulas);
                 system("pause");
                 break;
 
+
+            case 6: // SALIR DEL PROGRAMA
+                system("cls");
+                imprimirMarco("Gracias por su visita");
+                system("pause");
+                salirMenu = true;
+                break;
+            
             default:
                 system("cls");
                 imprimirMarco("Valor incorrecto, intente de nuevo");
